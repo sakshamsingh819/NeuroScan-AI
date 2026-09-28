@@ -1,0 +1,24 @@
+﻿# Dataset - do not upload MRI images
+Data/
+data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large model checkpoint (kept locally)
+models/brain_tumor_cnn.pth
